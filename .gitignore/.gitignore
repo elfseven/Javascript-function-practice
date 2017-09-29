@@ -1,0 +1,38 @@
+1. 交换函数值
+
+<script type="text/javascript">
+function swap(a,b){
+ var temp;
+ temp=a;
+ a=b;
+ b=temp;
+ alert("a="+a+ " , "+"b="+b);
+ 
+}
+swap(4,5);
+</script>
+
+***************************************
+2 最大值
+
+<script type="text/javascript">
+function max(a,b,c){
+	var temp;
+	if (a>=b){
+	temp =a;
+	}
+	else{
+	temp=b;
+	}
+	if (temp<c){
+    temp =c;
+    }
+    return temp;
+}
+//var result= max(22,45,57);
+//alert(result);
+
+alert(max(2,33,57))
+
+
+</script>
